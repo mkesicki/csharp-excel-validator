@@ -1,0 +1,26 @@
+defaults:
+
+    - name: "NotBlank"
+      message: "Field cannot be blank"
+
+    - name: "Type"
+      message: "Invalid type value"
+      options:
+          - type: "integer"
+            trim: true
+
+columns:
+    A:
+        - name: "NotBlank"
+          message: "Field cannot be blank"
+
+        - name: "Length"
+          message: "Field has invalid length"
+          options:
+              -  min: 3
+                 minMessage: "Field should have minimum 3 characters"
+    B:
+        - name: "Type"
+          message: "Invalid type"
+          options:
+              - type: "boolean"
