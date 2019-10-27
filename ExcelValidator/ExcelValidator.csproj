@@ -53,8 +53,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Excel\Excel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validator\AbstractValidator.cs" />
+    <Compile Include="Validator\IValidator.cs" />
+    <Compile Include="Validator\LengthValidator.cs" />
+    <Compile Include="Validator\NotBlankValidator.cs" />
+    <Compile Include="Validator\TypeValidator.cs" />
+    <Compile Include="Yaml.cs" />
+    <Compile Include="YamlValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

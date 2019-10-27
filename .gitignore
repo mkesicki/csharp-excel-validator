@@ -2,3 +2,4 @@
 ExcelValidator/obj/
 ExcelValidator/bin/
 ExcelValidator/ExcelValidator.csproj.user
+ExcelValidator/config/config.yaml

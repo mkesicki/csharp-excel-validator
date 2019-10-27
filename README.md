@@ -8,8 +8,6 @@ $ ./ExcelValidator.exe
  You need to pass 2 parametrs:
  - path to Excel file
  - path to yaml config file with validation rules
-```
 
-```
 $ ./ExcelValidator.exe excel.xlsx config.yaml
 ```
