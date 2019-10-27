@@ -1,6 +1,6 @@
 # ExcelValidator
-This is just to play with C# and Threads. The idea is like: [https://github.com/mkesicki/excel_validator/]
-but in *C#* and will try to use Threads to parse file. This is just a fun exercise.  
+This is just to play with C# and Threads. The idea is same as: [https://github.com/mkesicki/excel_validator/]
+but written in *C#*. This version is using Threads to speed up process. It is fun exercise and only very basic validation is added. If you like please extend :)
 
 ## Usage 
 ```
